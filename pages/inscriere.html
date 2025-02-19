@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="liceu,Dimitrie Cantemir, Cantemir, liceu Cantemir, consiliul elevilor Cantemir, profesori Cantemir">
+    <meta name="description"
+        content="Acest site informează despre Liceul Teoretic Dimitrie Cantemir, un liceu cu rezultate bune la învățătură și care dispune de condițiile necesare elevilor.">
+    <meta name="author" content="Doina Garofița, Domanciuc Lavinia">
+    <link rel="icon" href="../images/student.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title> L.T. ,,Dimitrie Cantemir”</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
+    <script type="text/javascript"></script>
+    
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"> <img src="../images/logo.png" class="logo2"> </a>
+        <nav>
+            <ul>
+                <li class="logo-li"> <a href="../index.html"> <img src="../images/logo.png" class="logo1"> </a> </li>
+                <li class="acasa-li">
+                    <a href="../pages/acasa.html"> Acasă <span class="span"> &#x25BE; </span> <span class="span2">
+                            &#x25BA; </span> </a>
+                    <ul id="acasa-ul-mobile">
+                        <li class="ul-li-orar"> <a href="../pages/despre.html" target="_blank"> Despre </a> </li>
+                        <li> <a href="../pages/administratie.html" target="_blank"> Administrație </a> </li>
+                        <li> <a href="../pages/inscriere.html"> Înscriere </a> </li>
+                    </ul>
+                </li>
+                <li class="activitate-li">
+                    <a href="../pages/activitate.html"> Activitate <span class="span"> &#x25BE; </span> <span
+                            class="span2">
+                            &#x25BA; </span> </a>
+                    <ul id="activitate-ul-mobile">
+                        <li class="ul-li-orar"> <a href="../pages/orar.html" target="_blank"> Orar </a> </li>
+                        <li> <a href="../pages/activitate.html#didactic"> Cadre didactice </a> </li>
+                        <li> <a href="../pages/activitate.html#extrascolar"> Activități extrașcolare </a> </li>
+                        <li> <a href="../pages/activitate.html#sport"> Sport </a> </li>
+                    </ul>
+                </li>
+                <li class="contacte-li"> <a href="contacte.html"> Contacte </a> </li>
+            </ul>
+            <a href="tel:027322615" class="button">
+                <img src="../images/phone.png" class="phone">
+                Contactează
+            </a>
+        </nav>
+        <a href="tel:076740309" class="button2">
+            <img src="../images/phone.png" class="phone">
+        </a>
+        <b id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"> </b>
+    </header>
+    <main>
+        <section id="galerie">
+            <div class="galerie-container">
+
+                <h1 class="centered mare"> Înscriere </h1>
+
+                <div class="formular">
+                    <form id="formular" method="POST" action="https://sheetdb.io/api/v1/lfw0j77le0bv7">
+                        <legend class="centered mare2"> Formular de înscriere </legend>
+
+                        <label for="nume"> Nume, prenume*</label>
+                        <input placeholder="Ex: Popescu Ion" type="text" id="nume" required name="data[nume]"> <br />
+
+                        <label for="data"> Data nașterii* </label> <br />
+                        <input type="date" required name="data[data]"> <br />
+
+                        <label> Gen* </label><br />
+                        <label for="feminin"> Feminin </label>
+                        <input type="radio" checked required name="data[gen]"> <br />
+                        <label for="masculin"> Masculin </label>
+                        <input type="radio" checked required name="data[gen]"> <br />
+
+                        <label for="profilul"> Clasa*</label> <br />
+                        <select required name="data[grupa]">
+                            <option disabled selected> Selectează clasa</option>
+                            <option> X </option>
+                            <option> XI</option>
+                            <option> XII</option> <br />
+                        </select> <br />
+
+                        <label for="institutia"> Instituția precedentă* </label>
+                        <input placehol type="text required name=" data[nume]"> <br />
+
+                        <label for="profilul"> Profilul*</label> <br />
+                        <select required name="data[grupa]">
+                            <option disabled selected> Selectează profilul</option>
+                            <option> Real </option>
+                            <option> Uman</option> <br />
+                        </select>
+                        <br />
+                        <label for="email"> Adresa de e-mail* </label> <br />
+                        <input type="email" required name="data[email]"> <br />
+
+                        <label for="telefon"> Telefon* </label> <br />
+                        <input type="tel" name="data[telefon]"> <br />
+
+                        <br />
+
+                        <input type="submit" value="Transmite">
+                    </form>
+
+                </div>
+                <!-- <div class="acasa-galerie">
+                    <a data-aos="zoom-in" data-aos-delay="300" href="../images/coafuri1.jpg">
+                        <img src="../images/coafuri1.jpg"></a>
+                    <a data-aos="zoom-in" data-aos-delay="500" href="../images/coafuri2.jpg">
+                        <img src="../images/coafuri2.jpg"> </a>
+                    <a data-aos="zoom-in" data-aos-delay="700" href="../images/coafuri3.jpg">
+                        <img src="../images/coafuri3.jpg"> </a>
+                    <a data-aos="zoom-in" data-aos-delay="900" href="../images/coafuri4.jpg">
+                        <img src="../images/coafuri4.jpg"> </a>
+                    <a data-aos="zoom-in" data-aos-delay="1100" href="../images/coafuri5.jpg">
+                        <img src="../images/coafuri5.jpg"> </a>
+                    <a data-aos="zoom-in" data-aos-delay="1300" href="../images/coafuri6.jpg">
+                        <img src="../images/coafuri6.jpg"> </a>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3 class="centered">I.P. Liceul Teoretic „D.Cantemir"
+            <img class="copyright" src="../images/copyright.png">
+        </h3>
+        <h5> Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul
+            ”Tekwill în fiecare școală” și nu reflectă neapărat opinia proiectului </h5>
+    </footer>
+</body>
+
+</html>
